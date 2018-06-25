@@ -1,3 +1,9 @@
+/*“Hay 3 formas de crear objetos”:
+
+Creando una funcion y usando prototipos
+Creando un objeto y usando Createobject()
+Creando una clase y creando una instancia de la misma
+*/
 class Punto{
 	constructor(x,y){
 		this.x=x

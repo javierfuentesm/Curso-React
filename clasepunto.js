@@ -1,4 +1,4 @@
-*/
+// La primera forma de hacerlo
 function Punto(x,y){
 	this.x=x
 	this.y=y
@@ -20,7 +20,7 @@ Punto.prototype.distancia= function distancia(p) {
 }
 
 
-*/
+//una segunda forma de hacerelo
 
 const Punto={
 	init:function(x,y){

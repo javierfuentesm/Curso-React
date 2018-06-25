@@ -1,4 +1,4 @@
-*/
+/*
 function saludarGomez(nombre){
 
 	console.log("Hola"+nombre+"Gomez")
@@ -8,7 +8,9 @@ function saludarFuentes(nombre){
 
 	console.log("Hola"+nombre+"Fuentes")
 }
-/*
+*/
+
+
 function saludarFamilia(apellido){
 
 	return function saludarmiembrodefamilia(nombre){
