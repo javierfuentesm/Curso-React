@@ -1,12 +1,17 @@
 function suma(...numeros) {
+
+/* Manera tradicional de hacerlo
 let acum=0
-*/
 	for (let i = 0; i < numeros.length; i++) {
 		acum += numeros[i]
 	}
 
 	return acum
 */
+// El metodo reduce  por cada elemento del array va ir
+// acumulando un array sobre un acumulador
+//y ese acumulador s elo pasa al sigueinte elemento
+//Reduce recibe una funcion
 
 	return numeros.reduce(function(acum,numero){
 		acum += numero
@@ -51,7 +56,7 @@ function pares(...numeros){
 	return resultado
 	
 }
- //Usando filter 
+ //Usando filter se supone que regresa un true o false
 function pares2(...numeros){
 	return numeros.filter(function(numero){
 		return numero % 2==0
