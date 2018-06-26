@@ -35,10 +35,10 @@ saludarGomez("judas")
 //Closures: Son funciones que recuerdan el scope - entorno en donde fueron creadas. Lo cual permite que los 
 //closures o funciones internas tengan acceso a las variables de la función externa, dado que estan en el mismo scope. Ejemplo:
 
-functioncreaSumador(x) {
-  returnfunction(y) {
+function creaSumador(x){
+  return function(y) {
     return x + y;
-  };
+  }
 }
 
 var suma5 = creaSumador(5);
@@ -68,3 +68,6 @@ prefijore("malo")
  
 
 
+generaPrefijo = prefijo => valor => prefijo + valor;
+const re = generaPrefijo("re");
+re("malo");
