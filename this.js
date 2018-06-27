@@ -14,7 +14,7 @@ class Persona{
 }
 const desplegar = new Persona("Javier",["Rodolfo","Justin","Ana"]);
 
-
+//Codigo del curso con todos los pasos
 class Persona {
     constructor(nombre, amigos = []) {
       this.nombre = nombre
